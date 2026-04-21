@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f8f9fa;
+  font-family: "Muli", sans-serif;
+  font-optical-sizing: auto;
+}
+.container {
+  /* display: flex; */
+}
+.side {
+  position: fixed;
+  height: 100vh;
+  width: 300px;
+  background-color: #bd5d38;
+}
+.side .avatar-wrapper {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #e07b52; /* لون البوردر */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  left: 70px;
+  top: 160px;
+}
+
+.side .avatar-wrapper img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.side .side-content {
+  position: absolute;
+  left: 90px;
+  top: 350px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.side .side-content h3 {
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 15px 0;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.side-content h3.active,
+.side-content h3:hover {
+  color: #fff;
+}
+.main {
+  margin-left: 280px;
+  padding: 130px 60px;
+}
+
+.main .main-text h1 {
+  font-family: "Saira Extra Condensed", sans-serif; /* أهم تعديل */
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #343a40; /* رمادي غامق بدل الأسود */
+}
+.main .main-text span {
+  color: #bd5d38;
+  text-transform: uppercase;
+}
+.subheading {
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #6c757d;
+  margin: -50px 0 30px;
+}
+
+.subheading a {
+  color: #bd5d38;
+  text-decoration: none;
+}
+.lead {
+  font-size: 18px;
+  color: #6c757d;
+  line-height: 1.8; /* مهم */
+  max-width: none; /* مهم */
+  width: auto;
+}
+.icons {
+  font-size: 60px;
+  filter: grayscale(0.6);
+}
+.icons a {
+  text-decoration: none;
+}
+.icons a:hover {
+  opacity: 0.5;
+}
+.line {
+  margin: 100px 0;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+}
+.maintext2 h1 {
+  color: #343a40;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.maintext2 h2 {
+  text-transform: uppercase;
+}
+.maintext2 h3 {
+  color: #6c757d;
+  text-transform: uppercase;
+}
+.maintext2 p {
+  color: #6c757d;
+  font-size: 15px;
+}
+.maintext2 ul {
+  color: #6c757d;
+  font-size: 15px;
+}
+.maintext2 .skills .icons {
+  font-size: 40px;
+  filter: grayscale(0.9);
+  opacity: 0.5;
+}
